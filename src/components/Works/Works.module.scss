@@ -5,6 +5,10 @@
         flex-direction: column;
         gap: 2rem;
 
+        .title{
+            text-align: center;
+        }
+
         .experiences {
             width: 100%;
             flex-direction: column;

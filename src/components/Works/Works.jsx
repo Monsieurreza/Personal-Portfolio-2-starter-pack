@@ -5,6 +5,7 @@ import {motion} from 'framer-motion';
 
 const Works = () => {
     return ( 
+
         <motion.section 
         variants={staggerContainer}
         initial="hidden"
@@ -13,8 +14,10 @@ const Works = () => {
         className={`paddings ${css.wrapper}`}
         >
             <a className="anchor" id="work"></a>
+
             <div className={`flexCenter innerWidth ${css.container}`}>
-             <span className="primaryText yPaddings">My Work Experience</span>
+
+             <span className= {`primaryText yPaddings ${css.title}`}>My Work Experience</span>
 
 
               <div className={`flexCenter ${css.experiences}`}>

@@ -20,6 +20,7 @@ const People = () => {
         <motion.div 
         variants={footerVariants}
         className={`yPaddings innerWidth ${css.container}`}>
+            
         <div className={`flexCenter ${css.heading}`}>
             <span className="primaryText">People Talk about Us</span>
             <p style={{marginTop:'2rem'}}>

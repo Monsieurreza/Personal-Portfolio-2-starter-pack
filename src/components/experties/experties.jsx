@@ -19,6 +19,7 @@ const Experties = () => {
 
             <div className={`padding yPadding flexCenter innerWidth ${css.container}`}>
 
+                {/* {left side} */}
                 <div className={css.leftside}>
                 {
                         projectExperience.map((exp,i)=>{
@@ -27,7 +28,7 @@ const Experties = () => {
                             className={css.exp} 
                             key={i}
                             >
-                                <div className="flexCenter" style={{background: exp.bg, }} >
+                                <div className="flexCenter" style={{background: exp.bg}} >
                                     <exp.icon  size={25} color='white'/>
                                  </div>
                                     <div className={css.description}>
@@ -38,7 +39,9 @@ const Experties = () => {
                         })
                     }
                 </div>
+                
 
+                {/* {right side} */}
                 <motion.div 
                 variants={textVariant(0.5)}
                 className={css.rightside}

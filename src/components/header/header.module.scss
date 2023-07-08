@@ -79,7 +79,12 @@
             }
         }
 
+        .menuicon{
 
+            @media (min-width: $md){
+                display:none;
+            }
+        }
     }
 
 

@@ -11,10 +11,10 @@ const Header = () => {
 
     const [menuOpend, setMenuOpened] = useState (false);
     const headerShadow = useHeaderShadow();
-    // const menuRef = useRef(null)
+//     const menuRef = useRef(null)
 
 
-//to handle click outside of sidebar on mobile
+// to handle click outside of sidebar on mobile
 
 // useOutsideAlerter({
 //     menuRef,
@@ -39,14 +39,14 @@ const Header = () => {
                     Monsieur Reza
                 </div>
 
+                {/* {this is menu} */}
                 <ul 
-                
                 style={getMenuStyles(menuOpend)} 
                 className={`flexCenter ${css.menu}`}
                 >
                     <li><a href="#experties">Searvices</a></li>
                     <li><a href="#work">Experience</a></li>
-                    <li><a href="#portfo"></a>Portfolio</li>
+                    <li><a href="#portfoli">Portfolio</a></li>
                     <li><a href="#people">Tesstmonials</a></li>
                     <li className={`flexCenter ${css.phone}`}>
                         <p>+989127062493</p>
@@ -55,10 +55,8 @@ const Header = () => {
                 </ul>
 
                 {/* (this is only for medium and small screens) */}
-
                 <div className={css.menuicon}
                 onClick={()=>setMenuOpened((prev)=>!prev)}
-                
                 >
                     <BiMenuAltRight size={'30px'}/>
                 </div>

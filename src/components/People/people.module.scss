@@ -4,13 +4,19 @@
 .wrapper{
     .container{
         .heading{
+            margin-bottom: 2rem;
+            text-align: center;
+
             flex-direction: column;
+
+
             p{
                 line-height: 30px;       
             }
         }
 
         .comments{
+
 
             // fix for spacing between slides
             .slider :global {
